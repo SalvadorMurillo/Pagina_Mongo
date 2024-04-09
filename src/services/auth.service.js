@@ -16,3 +16,4 @@ export function logout() {
   return axios.post(`${URL_API}/logout`,undefined ,{ withCredentials: true });
   // return fetch(`${URL_API}/logout`, {method: 'POST',credentials: 'include'})
 }
+
